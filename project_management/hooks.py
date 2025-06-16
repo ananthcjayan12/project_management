@@ -242,3 +242,17 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+# Fixtures to ship default roles and custom permissions
+fixtures = [
+    {
+        "doctype": "Role",
+        "filters": [["name", "in", [
+            "Account Manager",
+            "Creative Director",
+            "Designer",
+            "QC Reviewer",
+            "Client"
+        ]]]
+    }
+]
+

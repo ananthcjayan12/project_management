@@ -59,6 +59,28 @@
    "write": 1,
    "create": 1,
    "delete": 1
+  },
+  {
+   "role": "Account Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1
+  },
+  {
+   "role": "Creative Director",
+   "read": 1,
+   "write": 1
+  },
+  {
+   "role": "Designer",
+   "read": 1,
+   "write": 1,
+   "match": "assigned_designer"
+  },
+  {
+   "role": "Client",
+   "read": 1
   }
  ]
 } 

@@ -81,6 +81,20 @@
    "submit": 1,
    "cancel": 1,
    "amend": 1
+  },
+  {
+   "role": "Account Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "submit": 1,
+   "cancel": 1,
+   "amend": 1
+  },
+  {
+   "role": "Creative Director",
+   "read": 1
   }
  ]
 } 
