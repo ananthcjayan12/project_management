@@ -260,5 +260,13 @@ fixtures = [
             "Project Workflow",
             "Task Workflow"
         ]]]
+    },
+        {
+        "doctype": "Workspace",
+        "filters": [["name", "in", [
+            "Account Manager",
+            "Creative Director",
+            "Designer"
+        ]]]
     }
 ]

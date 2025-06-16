@@ -1,0 +1,69 @@
+[
+ {
+  "charts": [
+   {
+    "chart_name": "Tasks By Status",
+    "label": "Tasks Status",
+    "parent": "Account Manager",
+    "parentfield": "charts",
+    "parenttype": "Workspace"
+   }
+  ],
+  "content": "[{\"id\":\"Vlcu0hBV-b\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Account Manager</span>\",\"col\":12}},{\"id\":\"D-yhLqAiTt\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Projects\",\"col\":4}},{\"id\":\"cYaIJE4NMl\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Tasks Status\",\"col\":12}},{\"id\":\"Us9wIyUupS\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Task\",\"col\":3}}]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "for_user": "",
+  "hide_custom": 0,
+  "icon": null,
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "Account Manager",
+  "links": [],
+  "modified": "2025-06-16 16:02:16.193251",
+  "module": null,
+  "name": "Account Manager",
+  "number_cards": [
+   {
+    "label": "Total Projects",
+    "number_card_name": "Total Projects",
+    "parent": "Account Manager",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   }
+  ],
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [
+   {
+    "parent": "Account Manager",
+    "parentfield": "roles",
+    "parenttype": "Workspace",
+    "role": "Account Manager"
+   }
+  ],
+  "sequence_id": 28.0,
+  "shortcuts": [
+   {
+    "color": "Grey",
+    "doc_view": "Kanban",
+    "format": null,
+    "icon": null,
+    "kanban_board": "Task Board",
+    "label": "Task",
+    "link_to": "Task",
+    "parent": "Account Manager",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "report_ref_doctype": null,
+    "restrict_to_domain": null,
+    "stats_filter": "[]",
+    "type": "DocType",
+    "url": null
+   }
+  ],
+  "title": "Account Manager"
+ }
+]
