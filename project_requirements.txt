@@ -1,0 +1,68 @@
+Flow Narrative for Project Management App
+1. Project Creation
+The Account Manager logs into the app and navigates to the project creation screen.
+They enter project details such as the project name, priority, company name, client name, and due date.
+Client can be selected from existing list or give an option to add new client
+Deliverable details are added, allowing for a comprehensive project outline.
+Attachments for designs and account details can be uploaded.
+Once all information is filled in, the project is saved and added to the manager's dashboard.
+2. Account Manager Dashboard
+Upon logging in, the Account Manager sees a comprehensive overview of all projects.
+The dashboard displays total projects, active clients, pending deliverables, and unassigned deliverables.
+A table lists active projects with details like client information, timeline, status, and progress.
+Managers navigate to the Kanban board for a task-specific view.
+Tasks are organized into columns: Action Pending, In Progress, Under Client Review, and Completed.
+Actions like assigning tasks, requesting reworks, or approving tasks can be performed directly on this board.
+1. Action Pending - Assign, Approve, Rework (Option to take complimentary / Paid - give an toggle option, default show old designer information to select or user can change and assign)- Assign to designer directly
+2. In Progress
+3. Client Review
+4. Completed
+Financial Calculation
+Deliverable Count - m
+1 poster count - X
+Correction amount - y
+Correction count - n (the one selected as payable when account manager assign the rework to designer)
+
+
+Total Financial - mX + ny
+
+
+3. Task Assignment
+From the Action Pending column, the Account Manager assigns tasks to a Creative Director by entering their email.
+For reworks, the task is reassigned to the Desivgner with relevant notes for revisions. Also tmhere is an option to toggle b/w free and complementary
+4. Creative Director Dashboard
+The Creative Director logs in and views their dashboard, which provides an overview of unassigned deliverables, team deliverables, and pending tasks.
+Their Kanban board shows tasks in different statuses: To Do, In Progress, Team Tasks Over Due, and Waiting for Client Approval.
+The Creative Director can assign tasks to designers or themselves, depending on workflow needs.
+Creative director will have an option to reassign an assigned work from one designer to another
+A creative director will give a new eta for the designer, which is different from the original eta given by the client
+A point wise system to each deliverable so that later creative director will be able to know a overview of the designer and if they can take more work - more discussion needed
+5. Designer Interface
+Designers view their tasks using a Kanban board with columns: To Do and In Progress.
+Clicking on a task opens the design interface, where task details are viewed.
+Designers upload design files as needed, with version control managing file submissions.
+Conversations with the Account Manager are initiated via a chat functionality.
+Once designs are ready, they are submitted for QC review.
+Phase 2- give a tagging to each deliverables/assets so that later designer can search their earlier designs 
+Status
+1. To Do - Design, QC Rejected Rework, Client Rejected Rework
+2. In Progress
+3. Deliverable Statuses (one month) - Approval Pending (In QC, Director, Client)  
+File Type uploading - storage - Google Drive / R3 - Pricing part
+Photos - Preview possible
+
+
+6. QC Review Panel
+Quality Control reviewers access submitted tasks via their dashboard to conduct reviews.
+Each design is scrutinized under Pending Reviews, with options to approve or reject.
+Approved designs move forward, while rejected designs are sent back to the designers with feedback for necessary adjustments.
+Phase 2 - Plagiarism AI for giving a more added value
+7. Client Interface
+Clients log into the app to access tasks awaiting their approval through a dedicated Kanban board.
+Task columns include Pending Approval, Revision in Progress, and Approved Design.
+Clients click on tasks to view details, enter into discussions with Account Managers, provide feedback, and view project version history also approval button
+Financial part
+8. Project Version History
+A thorough record of all submitted versions is maintained.
+Each entry displays version number, submission date, submitter, current status, client feedback, and review date.
+Version visibility based on roles - give a filter and show based on it
