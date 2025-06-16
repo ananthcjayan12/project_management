@@ -1,0 +1,86 @@
+{
+ "doctype": "DocType",
+ "name": "Project",
+ "module": "Project Management",
+ "custom": 0,
+ "is_submittable": 1,
+ "istable": 0,
+ "issingle": 0,
+ "title_field": "project_name",
+ "autoname": "field:project_name",
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "label": "Project Name",
+   "fieldtype": "Data",
+   "reqd": 1
+  },
+  {
+   "fieldname": "priority",
+   "label": "Priority",
+   "fieldtype": "Select",
+   "options": "Low\nMedium\nHigh",
+   "reqd": 1
+  },
+  {
+   "fieldname": "client",
+   "label": "Client",
+   "fieldtype": "Link",
+   "options": "Client",
+   "reqd": 1
+  },
+  {
+   "fieldname": "due_date",
+   "label": "Due Date",
+   "fieldtype": "Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "deliverables",
+   "label": "Deliverables",
+   "fieldtype": "Table",
+   "options": "Deliverable"
+  },
+  {
+   "fieldname": "attachments",
+   "label": "Attachments",
+   "fieldtype": "Attach"
+  },
+  {
+   "fieldname": "deliverable_count",
+   "label": "Deliverable Count",
+   "fieldtype": "Int",
+   "read_only": 1
+  },
+  {
+   "fieldname": "correction_count",
+   "label": "Correction Count",
+   "fieldtype": "Int",
+   "read_only": 1
+  },
+  {
+   "fieldname": "grand_total",
+   "label": "Grand Total",
+   "fieldtype": "Currency",
+   "read_only": 1
+  },
+  {
+   "fieldname": "status",
+   "label": "Status",
+   "fieldtype": "Select",
+   "options": "Draft\nIn Progress\nClient Review\nCompleted\nRejected"
+  }
+ ],
+ "permissions": [
+  {
+   "role": "System Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "submit": 1,
+   "cancel": 1,
+   "amend": 1
+  }
+ ]
+} 

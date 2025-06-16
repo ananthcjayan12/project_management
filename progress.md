@@ -7,6 +7,13 @@ Below is a running checklist of the milestones from **Instructions.md**. Update 
 - [x] 3. Creating the Bench, Site & App
 - [x] 4. Frappe Fundamentals Refresher
 - [ ] 5. Detailed Data-Model Design — *In Progress*
+  - [x] 5.1 Client DocType
+  - [ ] 5.2 Project DocType (Submittable)
+  - [ ] 5.3 Deliverable Child DocType
+  - [ ] 5.4 Task DocType
+  - [ ] 5.5 Rework Log DocType
+  - [ ] 5.6 QC Review DocType
+  - [ ] 5.7 PM Settings (Singleton)
 - [ ] 6. Roles, Users & Permissions
 - [ ] 7. Workflows & Document Life-Cycles
 - [ ] 8. UI/UX: Kanban Boards, Dashboards & Workspaces
