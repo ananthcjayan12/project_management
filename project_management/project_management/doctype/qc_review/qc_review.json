@@ -1,0 +1,42 @@
+{
+ "doctype": "DocType",
+ "name": "QC Review",
+ "module": "Project Management",
+ "custom": 0,
+ "istable": 0,
+ "is_submittable": 1,
+ "issingle": 0,
+ "fields": [
+  {
+   "fieldname": "task",
+   "label": "Task",
+   "fieldtype": "Link",
+   "options": "Task",
+   "reqd": 1
+  },
+  {
+   "fieldname": "decision",
+   "label": "Decision",
+   "fieldtype": "Select",
+   "options": "Approve\nReject",
+   "reqd": 1
+  },
+  {
+   "fieldname": "comments",
+   "label": "Comments",
+   "fieldtype": "Small Text"
+  }
+ ],
+ "permissions": [
+  {
+   "role": "System Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "submit": 1,
+   "cancel": 1,
+   "amend": 1
+  }
+ ]
+} 

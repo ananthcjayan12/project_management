@@ -1,0 +1,54 @@
+{
+ "doctype": "DocType",
+ "name": "Deliverable",
+ "module": "Project Management",
+ "custom": 0,
+ "istable": 1,
+ "is_submittable": 0,
+ "issingle": 0,
+ "fields": [
+  {
+   "fieldname": "deliverable_name",
+   "label": "Deliverable Name",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "type",
+   "label": "Type",
+   "fieldtype": "Select",
+   "options": "Poster\nBanner\nVideo"
+  },
+  {
+   "fieldname": "assigned_to",
+   "label": "Assigned To",
+   "fieldtype": "Link",
+   "options": "User"
+  },
+  {
+   "fieldname": "points",
+   "label": "Points",
+   "fieldtype": "Int",
+   "description": "Capacity metric"
+  },
+  {
+   "fieldname": "status",
+   "label": "Status",
+   "fieldtype": "Select",
+   "options": "To Do\nIn Progress\nClient Review\nCompleted"
+  },
+  {
+   "fieldname": "paid_rework",
+   "label": "Paid Rework",
+   "fieldtype": "Check"
+  }
+ ],
+ "permissions": [
+  {
+   "role": "System Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1
+  }
+ ]
+} 

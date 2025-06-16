@@ -1,0 +1,38 @@
+{
+ "doctype": "DocType",
+ "name": "Rework Log",
+ "module": "Project Management",
+ "custom": 0,
+ "istable": 0,
+ "is_submittable": 0,
+ "issingle": 0,
+ "fields": [
+  {
+   "fieldname": "task",
+   "label": "Task",
+   "fieldtype": "Link",
+   "options": "Task",
+   "reqd": 1
+  },
+  {
+   "fieldname": "paid",
+   "label": "Paid Rework",
+   "fieldtype": "Check",
+   "default": "0"
+  },
+  {
+   "fieldname": "remarks",
+   "label": "Remarks",
+   "fieldtype": "Small Text"
+  }
+ ],
+ "permissions": [
+  {
+   "role": "System Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1
+  }
+ ]
+} 
