@@ -253,6 +253,12 @@ fixtures = [
             "QC Reviewer",
             "Client"
         ]]]
+    },
+    {
+        "doctype": "Workflow",
+        "filters": [["name", "in", [
+            "Project Workflow",
+            "Task Workflow"
+        ]]]
     }
 ]
-
